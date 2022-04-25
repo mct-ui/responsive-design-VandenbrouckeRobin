@@ -387,6 +387,11 @@ a:focus {
   Small reusable object to remove default list styling from lists
 */
 
+.o-list{
+  list-style: none;
+  padding: 0;
+}
+
 .o-list-reset {
   list-style: none;
   padding: 0;
@@ -409,9 +414,9 @@ a:focus {
 
 @media (min-width: 992px) {
   .c-header {
-      display: flex;
+      /* display: flex;
       gap: 24px;
-      justify-content: space-between;
+      justify-content: space-between; */
   }
 
   .c-header__nav {
@@ -456,8 +461,9 @@ a:focus {
 }
 
 .c-nav__link {
-  display: block;
+  /* display: block; */
   text-decoration: none;
+  font-weight: 400;
   padding: 8px 0;
 }
 
